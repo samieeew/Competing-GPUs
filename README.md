@@ -10,7 +10,7 @@ This is a GPU-accelerated implementation of Tic-Tac-Toe and Connect-N using **NV
 
 ---
 
-## 📦 Features
+## Features
 
 - Supports any board size `N x N` (minimum 3x3).
 - Dynamic win condition: 
@@ -21,7 +21,7 @@ This is a GPU-accelerated implementation of Tic-Tac-Toe and Connect-N using **NV
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 | Player | Strategy | Execution                       |
 |--------|----------|---------------------------------|
@@ -30,7 +30,7 @@ This is a GPU-accelerated implementation of Tic-Tac-Toe and Connect-N using **NV
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 - NVIDIA GPU with CUDA support
 - CUDA Toolkit installed (11.x or 12.x)
@@ -39,8 +39,10 @@ This is a GPU-accelerated implementation of Tic-Tac-Toe and Connect-N using **NV
 
 ---
 
-## 🚀 Build and Run
+## Build and Run
 
 ### Build
 ```bash
 make build
+make run ARGS=3  //for 3x3
+make run ARGS=4  //for 4x4

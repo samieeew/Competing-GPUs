@@ -35,20 +35,25 @@ This is a GPU-accelerated implementation of Tic-Tac-Toe and Connect-N using **NV
 - NVIDIA GPU with CUDA support
 - CUDA Toolkit installed (11.x or 12.x)
 - `nvcc` compiler
-- Make (GNU Make)
+- Make (GNU Make) 
 
 ---
 
 ## Build
 ```bash
 make build
+```
 
 ---
 
 ## Run for 3x3 TicTacToe
+```bash
 make run ARGS=3 
+```
 
 ---
 
 ## Run for 4x4 TicTacToe
-make run ARGS=4  
+```bash
+make run ARGS=4 
+

@@ -50,11 +50,6 @@ make build
 make run ARGS=3 
 ```
 ---
-## Run for 4x4 TicTacToe
-```bash
-make run ARGS=4
-```
----
 
 ## Run for 4x4 TicTacToe
 ```bash

@@ -12,7 +12,7 @@ build: $(SRC)
 	$(CXX) $(SRC) -o $(TARGET) $(CXXFLAGS) $(LDFLAGS)
 
 run:
-	./$(TARGET) $(ARGS)
+	./$(TARGET) $(ARGS) > output.txt
 
 clean:
 	rm -f $(TARGET) output*.txt

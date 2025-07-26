@@ -43,7 +43,6 @@ This is a GPU-accelerated implementation of Tic-Tac-Toe and Connect-N using **NV
 ```bash
 make build
 ```
-
 ---
 
 ## Run for 3x3 TicTacToe
@@ -51,7 +50,6 @@ make build
 make run ARGS=3 
 ```
 ---
-
 ## Run for 4x4 TicTacToe
 ```bash
 make run ARGS=4
